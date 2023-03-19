@@ -2,26 +2,27 @@
 
 import { CacheProvider } from '@chakra-ui/next-js';
 import { ChakraProvider } from '@chakra-ui/react';
-import './globals.css'
 import Footer from './assets/Footer';
 import NavMenu from './assets/NavMenu';
+
+import './globals.css';
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body>
         <CacheProvider>
           <ChakraProvider>
-            <NavMenu/>
+            <NavMenu />
             {children}
-            <Footer/>
+            <Footer />
           </ChakraProvider>
         </CacheProvider>
       </body>
     </html>
-  )
+  );
 }

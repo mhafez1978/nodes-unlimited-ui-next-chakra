@@ -1,15 +1,23 @@
-.css-1ynfsgs{
-  padding-top:8px !important;
+.css-1ynfsgs {
+  padding-top: 8px !important;
 }
 
-.css-1saqvlr{
+.css-1saqvlr {
   background-color: tomato;
-  color:#fff !important;
+  color: #fff !important;
   font-weight: 700;
-
 }
 
-.css-0 a{
-  color:#222 !important;
+.css-0 a {
+  color: #222 !important;
   font-weight: 700;
+}
+
+.register:active,
+.register:visited {
+  color: #fff !important;
+}
+
+.register:hover {
+  color: #fff !important;
 }
